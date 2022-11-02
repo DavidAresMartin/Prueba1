@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Agenda>
+    <Persona pais = "España">
+        <nom>Raul</nom>
+        <Cognom>Aguiar</Cognom>
+        <direccio>Calle Valencia,337</direccio>
+         <telefon>
+            <casa>999799865</casa>
+            <treball>689765946</treball>
+            <mòbil>664052934</mòbil>
+
+         </telefon>
+    </Persona>
+    <Persona pais = "España">
+        <nom>Miguel</nom>
+        <Cognom>Hernandez</Cognom>
+        <direccio>Carrer de Sagasta</direccio>
+         <telefon>
+            <casa>999976895</casa>
+            <treball>699326598</treball>
+            <mòbil>698006974</mòbil>
+
+         </telefon>
+    </Persona>
+    <Persona pais = "Argentina">
+        <nom>Pau</nom>
+        <Cognom>Alcalaz</Cognom>
+        <direccio>Carrer d'Alberic</direccio>
+         <telefon>
+            <casa>999999946</casa>
+            <treball>649768956</treball>
+            <mòbil>648758956</mòbil>
+
+         </telefon>
+    </Persona>
+    <Persona pais = "España">
+        <nom>Xuyang</nom>
+        <Cognom>Guyn</Cognom>
+        <direccio>Avinguda del Mediterrani</direccio>
+         <telefon>
+            <casa>999869953</casa>
+            <treball>667986594</treball>
+            <mòbil>664798312</mòbil>
+
+         </telefon>
+    </Persona>
+    <Persona pais = "España">
+        <nom>Paula</nom>
+        <Cognom>Fernandez</Cognom>
+        <direccio>Carrer de Colón</direccio>
+         <telefon>
+            <casa>999999992</casa>
+            <treball>667983564</treball>
+            <mòbil>644853645</mòbil>
+
+         </telefon>
+    </Persona>
+</Agenda>

@@ -1,0 +1,38 @@
+{
+    "students":{
+        "student":[
+        {
+            "name":"Didac",
+            "surname":"Tobia",
+            "email":"didactobia@gmail.com",
+            "dni":"123456789D"
+        },
+        {
+            "name":"Juan",
+            "surname":"Qurioz",
+            "email":"juanquiroz@gmail.com",
+            "dni":"223456789D"
+        },
+        {
+            "name":"David",
+            "surname":"Mingoranze",
+            "email":"davidmingoranze@gmail.com",
+            "dni":"323456789D"
+        },
+        {
+            "name":"Xuyang",
+            "surname":"Wu",
+            "email":"xuyangwu@gmail.com",
+            "dni":"423456789D"
+        },
+        {
+            "name":"Oriol",
+            "surname":"Costa",
+            "email":"oriolcosta@gmail.com",
+            "dni":"523456789D"
+        }
+
+         ]
+    }
+
+}

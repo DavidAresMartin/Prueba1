@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+header{
+	width: 100%;
+	height: 63px;
+}
+header nav{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+header nav ul{
+	width: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+header nav ul li a{
+	margin-right: 15px;
+	display: flex;
+	font-size: 13px;
+	color: #444;
+}
+
+section{
+	margin-top: 132px;
+	text-align: center;
+}
+.logo{
+	width: 592px;
+	margin: 0 auto;
+	margin-bottom: 2px;
+}
+.logo img{
+	width: 222px;
+}
+.div_container{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+}
+.david{
+    order: 1;
+    border: 1px solid black;
+    margin: 70px;
+    padding: 70px;
+}
+.david_info{
+    order: 1;
+    margin: 60px;
+    padding: 50px;
+}
+.elihu{
+    order: 2;
+    border: 1px solid black;
+    margin: 70px;
+    padding: 70px;
+}
+.elihu_info{
+    order: 2;
+    margin: 60px;
+    padding: 50px;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+footer{
+	width: 100%;
+	height: 82px;
+	position: absolute;
+	bottom: 0;
+	background: #f2f2f2;
+}
+footer .pais,
+footer .links{
+	color: rgba(0,0,0,.54);
+	font-size: 15px;
+	height: 50%;
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
+}
+footer .pais{
+	justify-content: space-between;
+	border: 1px solid #e4e4e4;
+}
+footer .links{
+	justify-content: space-between;
+}
+footer ul li{
+	display: inline;
+}
+footer .links a{
+		color: #5f6368;
+		margin-right: 23px;
+		font-size: 14px;
+}
+

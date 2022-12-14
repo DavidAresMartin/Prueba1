@@ -9,17 +9,19 @@ a{
     cursor: pointer;
 }
 
-header{
-    width: 100%;
-    height: 60%;
-    position: absolute;
-    top: 0;
-}
 
+/*
+Todo este codigo es el header (encabezamiento)
+*/
 header nav{
     display: flex;
     justify-content: flex-end;
 }
+/*
+El codigo de css lo he puesto en forma de escalera, osea lo priemro que pues es 
+el header, luego el nav, luego dentro del header nav esta la classe nav-derecha 
+y asi con todas las classes de este codigo
+*/
 header nav .nav-derecha{
 
     width: 300px;
@@ -48,9 +50,12 @@ header nav .nav-derecha li:nth-child(4) input {
     width: 114px;
     border: none;
     border-radius: 4px;
+    
 }
 
-
+/*
+Todo este codigo es el main (principal)
+*/
 main {
     margin-top: 120px;
     text-align: center;
@@ -65,40 +70,69 @@ main .main-logo img{
     height: auto;
 }
 
-main .main-input{
-    width: 560px;
+main .main-input {
+    width: 530px;
     margin: 0 auto;
-    margin-bottom: 32px;
-}
-
-main .main-input .main-input-contenedor {
-    writing-mode: horizontal-tb;
-    width: 560px;
-    border: solid 1px #d0d0d7;
-  border-radius: 100px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-/*
-hover = sombra
-*/
-main .main-input .main-input-contenedor:hover{
-    box-shadow: 0 1px 6px 0 #3c4043;
-}
-main .main-input .main-input-contenedor .poner-iconos{
-    width: 20px;
-    margin-left: 12px;
-    color: #c1c1c1;
-}
-main .main-input .main-input-contenedor input{
-    width: 480px;
+    margin-bottom: 35px;
+  }
+  
+  main .main-input-contenedor {
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main .main-input input {
+    width: 450px;
     height: 40px;
     border: none;
     outline: none;
-    margin-left: 12px;
-    font-size: 16px;
-}
+  }
+  
+  main .main-input-contenedor:hover {
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+  }
+  
+  main .main-input .buscador-icono {
+    background-image: url("https://i2.wp.com/entrepreneurialambitions.com/wp-content/uploads/2017/04/magnifying-glass-1976105_1280.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+  }
+  
+  main .main-input .micro-icono {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    
+    
+  }
+ 
+  main section div input .input{
+    background-color: var(--color-realbox-background);
+    border: none;
+    border-radius: var(--ntp-realbox-border-radius);
+    color: var(--color-realbox-foreground);
+    font-family: inherit;
+    font-size: inherit;
+    height: 100%;
+    outline: 0;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 100%;
+  }
 
 main .main-botones{
     width: 560px;
@@ -144,6 +178,10 @@ section div p ul li{
     display: inline;
     padding-right: 5px;
 }
+
+/*
+Todo este codigo es el footer (pie de pagina)
+*/
 
 footer a:hover{
 	text-decoration: underline;

@@ -4,6 +4,7 @@
 	box-sizing: border-box;
 }
 body{
+	margin-top: 50px;
 	font-family: Arial, Helvetica, sans-serif;
 }
 a{
@@ -13,30 +14,47 @@ ul{
 	list-style: none;
 }
 header{
-	width: 100%;
-	height: 63px;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 0;
 }
+ 
 header nav{
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
-header nav ul{
-	width: 250px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+header nav .nav-derecha{
+	margin-top: 10px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
 }
-header nav ul li a{
-	margin-right: 15px;
-	display: flex;
-	font-size: 13px;
-	color: #444;
+ 
+header nav .nav-derecha li a{
+    margin-right: 16px;
+    color: black;
+ 
+ 
 }
-
+header nav .nav-derecha .menu-iconos{
+    font-size: 16px;
+ 
+}
+ 
+header nav .nav-derecha li:nth-child(4) input {
+    background-color: #2b7de9;
+    color: #fff;
+    height: 36px;
+    width: 114px;
+    border: none;
+    border-radius: 4px;
+}
 section{
-	margin-top: 132px;
+	margin-top: 40px;
 	text-align: center;
 }
 .logo{
@@ -51,32 +69,57 @@ section{
     display: flex ;
     flex-direction: row;
     justify-content: center;
+	margin-bottom: 0px;
+	padding: auto;
+	gap: 50px;
+
+}
+.div_container1{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+	margin-bottom: 0px;
+	padding: auto;
+	gap: 95px;
+
 }
 .david{
     order: 1;
-    border: 1px solid black;
-    margin: 70px;
-    padding: 70px;
-}
-.david_info{
-    order: 1;
+	border: 1px solid black;
     margin: 60px;
-    padding: 50px;
+    padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.david img{
+	height: 140px;
+	width: 120px;
 }
 .elihu{
     order: 2;
     border: 1px solid black;
-    margin: 70px;
-    padding: 70px;
-}
-.elihu_info{
-    order: 2;
     margin: 60px;
-    padding: 50px;
+    padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-footer a:hover{
-	text-decoration: underline;
+.elihu img{
+	height: 140px;
+	width: 120px;
+}
+.info_elihu{
+	order:2;
+	text-align: center;
+	color:black;
+	vertical-align:text-bottom;
+}
+.info_david{
+	order: 1;
+	text-align: center	;
+	color:black;
+	vertical-align:text-bottom;
 }
 footer{
 	width: 100%;

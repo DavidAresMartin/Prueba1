@@ -1,0 +1,41 @@
+.amarillo { 
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    left: 20px; 
+    top:40px;
+    background-color:yellow ;
+}
+.azul{
+    position: absolute;
+    width: 40px;
+   height: 40px;
+    left: 20px; 
+    top:20px;
+    background-color: blue;
+  }
+  
+  
+  .verde {
+    position: absolute;
+    width: 160px;
+    height: 120px;
+    left: 100px; 
+    top: 140px;
+    background-color: green ;
+     
+  }
+  .rojo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 20px; 
+    top:60px;
+    background-color: red;
+  }
+  .linia{
+    position: relative;
+    width: 280px;
+    height: 280px;
+    border-style: solid;
+  }

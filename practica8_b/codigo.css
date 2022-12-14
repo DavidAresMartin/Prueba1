@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	margin-top: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+header{
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+}
+ 
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav-derecha{
+	margin-top: 10px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+ 
+header nav .nav-derecha li a{
+    margin-right: 16px;
+    color: black;
+ 
+ 
+}
+header nav .nav-derecha .menu-iconos{
+    font-size: 16px;
+ 
+}
+ 
+header nav .nav-derecha li:nth-child(4) input {
+    background-color: #2b7de9;
+    color: #fff;
+    height: 36px;
+    width: 114px;
+    border: none;
+    border-radius: 4px;
+}
+section{
+	margin-top: 40px;
+	text-align: center;
+}
+.logo{
+	width: 592px;
+	margin: 0 auto;
+	margin-bottom: 2px;
+}
+.logo img{
+	width: 222px;
+}
+.div_container{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+	margin-bottom: 0px;
+	padding: auto;
+	gap: 50px;
+
+}
+.div_container1{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+	margin-bottom: 0px;
+	padding: auto;
+	gap: 95px;
+
+}
+.david{
+    order: 1;
+	border: 1px solid black;
+    margin: 60px;
+    padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.david img{
+	height: 140px;
+	width: 120px;
+}
+.elihu{
+    order: 2;
+    border: 1px solid black;
+    margin: 60px;
+    padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.elihu img{
+	height: 140px;
+	width: 120px;
+}
+.info_elihu{
+	order:2;
+	text-align: center;
+	color:black;
+	vertical-align:text-bottom;
+}
+.info_david{
+	order: 1;
+	text-align: center	;
+	color:black;
+	vertical-align:text-bottom;
+}
+footer{
+	width: 100%;
+	height: 82px;
+	position: absolute;
+	bottom: 0;
+	background: #f2f2f2;
+}
+footer .pais,
+footer .links{
+	color: rgba(0,0,0,.54);
+	font-size: 15px;
+	height: 50%;
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
+}
+footer .pais{
+	justify-content: space-between;
+	border: 1px solid #e4e4e4;
+}
+footer .links{
+	justify-content: space-between;
+}
+footer ul li{
+	display: inline;
+}
+footer .links a{
+		color: #5f6368;
+		margin-right: 23px;
+		font-size: 14px;
+}
+
